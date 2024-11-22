@@ -166,3 +166,17 @@
         margin-left: 15px;
         /*espaçamento entre as lista*/
     }
+
+
+    footer button {
+        width: 150px;
+        /* largura */
+        height: 50px;
+        /* altura */
+        background-color: white;
+        /* cor fundo */
+        border-radius: 5px;
+        /* borda redonda */
+        color: #333;
+        /*cor texto*/
+    }
