@@ -6,7 +6,7 @@
 
     /*ESTILIZANDO O HEADER*/
     header {
-        background-color:white;
+        background-color: white;
         padding: 70px;
         display: flex;
         justify-content: end;
@@ -36,7 +36,7 @@
 
     /*ESTILIZANDO A PRIMEIRA SESSÃO*/
     section {
-        padding: 30px;
+        padding: 70px;
         /*tamanho da sessão*/
         background-color: white;
         /*cor da sessão*/
@@ -46,7 +46,7 @@
     .section-1 h1 {
         color: black;
         /*cor da letra*/
-        font-size: 40px;
+        font-size: 30px;
         /*tamanho da letra*/
     }
 
@@ -67,11 +67,102 @@
         margin-left: 20px;
     }
 
-    
+
+
+    /*ESTILIZANDO A TERCEIRA SESSÃO*/
+    .section-3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        height: 60%;
+    }
+
+
+    .section-3 h2 {
+        color: black;
+        /*cor da letra*/
+        font-size: 2rem;
+        /*tamanho da letra*/
+    }
+
+
+    .section-3 p {
+        font-size: 1.2rem;
+        /*tamanho da letra*/
+        margin-top: 10px;
+        /*espaço de cima*/
+        margin-bottom: 10px;
+        /*espaço de baixo*/
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-3 img {
+        width: 250px;
+        /*largura*/
+        height: auto;
+        /*altura*/
+        max-width: 300px;
+    }
+
+
+
     /*ESTILIZANDO O FOOTER*/
     footer {
         background-color: black;
         color: white;
         text-align: center;
         padding: 50px;
+    }
+
+    footer h2 {
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    label {
+        color: #333;
+        /* cor do texto */
+        display: block;
+        font-size: 14px;
+        /* tamanho da letra */
+        margin-bottom: 6px;
+        /* espaço de baixo */
+    }
+
+    input {
+        padding: 12px;
+        /* tamanho */
+        margin-bottom: 25px;
+        /* espaço de baixo */
+        border-radius: 4px;
+        /* borda */
+        font-size: 14px;
+        /* tamanho da letra */
+        color: #333;
+        /* cor do texto */
+    }
+
+    footer nav ul {
+        display: flex;
+        /*clc os ngc lado a lado*/
+        list-style: none;
+    }
+
+    footer nav ul li {
+        margin-left: 20px;
+    }
+
+    footer nav ul li a {
+        color: white;
+        /*cor da letra*/
+        text-decoration: none;
+        /*tira o sublinhado*/
+        font-size: 15px;
+        /*tamanho da letra*/
+        margin-left: 15px;
+        /*espaçamento entre as lista*/
     }
